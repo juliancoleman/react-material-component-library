@@ -1,0 +1,16 @@
+{
+  "name": "react-material-component-library",
+  "version": "0.0.1",
+  "description": "A React component library for Material Components Web",
+  "main": "index.js",
+  "repository": "git@github.com:juliancoleman/react-material-component-library",
+  "author": "Julian Coleman <jcoleman.engineering@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "lerna": "^2.11.0",
+    "lerna-changelog": "^0.7.0",
+    "tslint": "^5.10.0",
+    "tslint-config-airbnb": "^5.8.0",
+    "typescript": "^2.8.3"
+  }
+}
