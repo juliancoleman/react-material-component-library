@@ -1,0 +1,24 @@
+{
+  "lerna": "2.11.0",
+  "loglevel": "warn",
+  "npmClient": "yarn",
+  "useWorkspaces": true,
+  "version": "0.0.1",
+  "changelog": {
+    "repo": "juliancoleman/react-material-components-web",
+    "labels": {
+      "tag: chore": "",
+      "tag: documentation": "",
+      "tag: feature": "",
+      "tag: fix": "",
+      "tag: refactor": "",
+      "tag: style": "",
+      "tag: test": ""
+    }
+  },
+  "command": {
+    "publish": {
+      "allowBranch": "master"
+    }
+  }
+}
