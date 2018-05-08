@@ -2,7 +2,7 @@
   "delete": true,
   "directory": "./src",
   "include": [
-    "src/.+.ts$"
+    "src/.+.tsx?$"
   ],
   "exclude": [
     ".spec.ts$"
