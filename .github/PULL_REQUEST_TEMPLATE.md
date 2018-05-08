@@ -52,7 +52,7 @@ Thank you for submitting your PR!
 Should your PR be merged in, two things will happen:
 
 1. Your branch will be deleted in order to keep branches tidy
-2. YOu will lose creative ownership over all code within the context of this project
+2. You will lose creative ownership over all code within the context of this project
     - Identical code in other projects are not of concern
 
 #### Why #2?
