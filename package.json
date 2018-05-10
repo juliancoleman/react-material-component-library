@@ -9,8 +9,8 @@
   "scripts": {
     "build": "yarn clean; run-p build:*",
     "build:common": "tsc -p ./config/tsconfig.commonjs.json",
-    "build:es": "tsc -p ./config/tsconfig.esnext.json",
     "build:umd": "tsc -p ./config/tsconfig.umd.json",
+    "build:es": "tsc -p ./config/tsconfig.es.json",
     "clean": "rm -rf dist/",
     "generate-barrels": "barrelsby -c barrelsby.json"
   },
