@@ -1,9 +1,0 @@
-{
-  "extends": "../tsconfig",
-  "compilerOptions": {
-    "module": "umd",
-    "target": "es6",
-    "noEmit": false,
-    "outDir": "../dist/umd"
-  }
-}
