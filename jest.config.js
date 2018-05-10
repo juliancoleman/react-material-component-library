@@ -1,7 +1,7 @@
 module.exports = {
   collectCoverageFrom: [
-    "src/**/!(index).{jsx?,tsx?}",
-    "helpers/**/!(index).{jsx?,tsx?}"
+    "src/**/!(index).(js|ts)?(x)",
+    "helpers/**/!(index).(js|ts)?(x)"
   ],
   coverageDirectory: "coverage",
   testMatch: [
