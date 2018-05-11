@@ -5,6 +5,8 @@ import Button from "./Button";
 
 
 const mockOnClick = jest.fn();
+const one = 1;
+const once = 1;
 
 describe("<Button />", () => {
   it("mounts properly", () => {
@@ -16,7 +18,6 @@ describe("<Button />", () => {
   describe("#render", () => {
     it("is called only once", () => {
       const spy = jest.spyOn(Button.prototype, "render");
-      const once = 1;
 
       const wrapper = mount(<Button />);
 
@@ -29,8 +30,6 @@ describe("<Button />", () => {
     it("simulates a click event", () => {
       const spy = jest.spyOn(Button.prototype, "render");
       const wrapper = shallow(<Button onClick={mockOnClick} />);
-      const once = 1;
-      const twice = 2;
 
       wrapper.find("button").simulate("click");
 
@@ -44,7 +43,6 @@ describe("<Button />", () => {
 
   it("contains a button element", () => {
     const wrapper = shallow(<Button />);
-    const one = 1;
 
     expect(wrapper.find("button")).toHaveLength(one);
     expect(wrapper.is("button")).toBe(true);
