@@ -33,7 +33,6 @@ describe("<Button />", () => {
 
       wrapper.find("button").simulate("click");
 
-
       expect(mockOnClick).toBeCalled();
       expect(mockOnClick).toHaveBeenCalledTimes(once);
       expect(spy).toHaveBeenCalledTimes(once);
