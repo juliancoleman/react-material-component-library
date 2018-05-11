@@ -2,6 +2,11 @@
 
 A React component library for Material Components Web
 
+[![Build Status](https://semaphoreci.com/api/v1/juliancoleman/orchestra/branches/master/badge.svg)](https://semaphoreci.com/juliancoleman/orchestra)
+[![Maintainability](https://api.codeclimate.com/v1/badges/0181111b648a435f22a9/maintainability)](https://codeclimate.com/github/juliancoleman/react-material-component-library/maintainability)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/0181111b648a435f22a9/test_coverage)](https://codeclimate.com/github/juliancoleman/react-material-component-library/test_coverage)
+[![codecov](https://codecov.io/gh/juliancoleman/react-material-component-library/branch/develop/graph/badge.svg)](https://codecov.io/gh/juliancoleman/react-material-component-library)
+
 # Creation guidelines
 
 A few guidelines I'll be following while building this.
