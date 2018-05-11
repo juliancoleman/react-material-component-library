@@ -22,9 +22,12 @@
     "verify": "tsc"
   },
   "dependencies": {
+    "@material/button": "^0.35.0",
+    "classnames": "^2.2.5",
     "react": "^16.3.2"
   },
   "devDependencies": {
+    "@types/classnames": "^2.2.3",
     "@types/enzyme": "^3.1.10",
     "@types/jest": "^22.2.3",
     "@types/jsdom": "^11.0.4",
