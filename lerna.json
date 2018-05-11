@@ -7,13 +7,13 @@
   "changelog": {
     "repo": "juliancoleman/react-material-components-web",
     "labels": {
-      "tag: chore": "",
-      "tag: documentation": "",
-      "tag: feature": "",
-      "tag: fix": "",
-      "tag: refactor": "",
-      "tag: style": "",
-      "tag: test": ""
+      "tag: chore": ":hammer_and_wrench: Chores",
+      "tag: documentation": ":book: Docs",
+      "tag: feature": ":rocket: New Features",
+      "tag: fix": ":bug: Fixes",
+      "tag: refactor": ":construction: Refactor",
+      "tag: style": ":nail_care: Styling",
+      "tag: test": ":thermometer: Test"
     }
   },
   "command": {
